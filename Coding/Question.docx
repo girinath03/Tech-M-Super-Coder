@@ -1,0 +1,56 @@
+DAY-1 TASK
+
+Problem-1
+You are given a list of daily prices of a stock. You can buy a stock on one day and sell it later on another day after the day you bought the stock. You can perform the above operation only once. What is the maximum loss possible?
+
+Example
+Prices=[10,4,2,9]
+The greatest loss is incurred when you buy at a price of 10 and sell at a price of 2. Return the difference:9.
+
+Example
+Price=[1,2,3,4]
+The Price went up every day. Return 0.
+
+Sample Input for Custom Testing
+STDIN Function
+———– ————–
+   7 → Prices [] size n=7
+   1 → prices =[1,8,4,2,10,3,2]
+   8
+   4
+   2
+  10
+   3
+   2
+Sample Output
+  8
+Explanation
+Using zero-based index notation, the correct answer is a[4]-a[6]=10-2=8. There is a greater difference between 10 and 1 but that would imply selling before buying, and short selling is not allowed in this problem.
+
+________________________________________________________________________________________________________________________________
+
+
+Problem-2
+
+Problem Description:
+A positive integer d is said to be a factor of another positive integer N if when N is divided by d, the remainder obtained is zero. For example, for number 12, there are 6 factors 1, 2, 3, 4, 6, 12. Every positive integer k has at least two factors, 1 and the number k itself. Given two positive integers N and k, write a program to print the kth largest factor of N.
+Input Format: The input is a comma-separated list of positive integer pairs (N, k).
+Output Format: The kth highest factor of N. If N does not have k factors, the output should be 1.
+
+Constraints:
+1<N<10000000000
+1<k<600.
+You can assume that N will have no prime factors which are larger than 13.
+
+Example 1
+Input: 12,3
+Output: 4
+Explanation: N is 12, k is 3. The factors of 12 are (1,2,3,4,6,12). The highest factor is 12 and the third largest factor is 4. The output must be 4.
+
+Example 2
+Input: 30,9
+Output: 1
+Explanation: N is 30, k is 9. The factors of 30 are (1,2,3,5,6,10,15,30). There are only 8 factors. As k is more than the number of factors, the output is 1.
+
+________________________________________________________________________________________________________________________________
+
