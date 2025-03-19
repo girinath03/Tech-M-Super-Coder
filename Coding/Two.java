@@ -24,5 +24,6 @@ class Two
             }
         }
         if(b!=0) System.out.println("-1");
+        sc.close();
     }
 }
